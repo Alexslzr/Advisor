@@ -2,9 +2,11 @@
 import { CircularProgress, Grid, Typography, MenuItem, FormControl, Select, InputLabel, Card } from '@material-ui/core'
 import PlaceDetails from '../PlaceDetails/PlaceDetails'
 import useStyles from './styles'
+import { useStateContext } from '../../contexts/contextProvider'
 
-const List = ({places, childClicked, loading, rating, type, setType, setRating }) => {
+const List = ({places}) => {
   const classes = useStyles()
+  const {childClicked, loading, rating, type, setType, setRating } = useStateContext()
   const [elRefs, setElRefs] = useState([])
 
 

@@ -4,10 +4,12 @@ import {Paper, Typography, useMediaQuery} from '@material-ui/core'
 import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined'
 import  Rating  from '@material-ui/lab/Rating'
 import useStyles from  './styles.js'
+import { useStateContext } from '../../contexts/contextProvider.js'
 
 
 
-const Map = ({setCoordinates, coordinates, setBounds, places, setChildClicked}) => {
+const Map = ({ places} ) => {
+  const {setCoordinates, coordinates, setBounds, setChildClicked} = useStateContext()
   const classes = useStyles()
   const isDesktop = useMediaQuery('(min-width:600px)')
  
