@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/advisor/static/js/main.22b3ebf0.chunk.js",
+    "main.js.map": "/advisor/static/js/main.22b3ebf0.chunk.js.map",
+    "runtime-main.js": "/advisor/static/js/runtime-main.c40c3d69.js",
+    "runtime-main.js.map": "/advisor/static/js/runtime-main.c40c3d69.js.map",
+    "static/js/2.4cd7b324.chunk.js": "/advisor/static/js/2.4cd7b324.chunk.js",
+    "static/js/2.4cd7b324.chunk.js.map": "/advisor/static/js/2.4cd7b324.chunk.js.map",
+    "index.html": "/advisor/index.html",
+    "static/js/2.4cd7b324.chunk.js.LICENSE.txt": "/advisor/static/js/2.4cd7b324.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c40c3d69.js",
+    "static/js/2.4cd7b324.chunk.js",
+    "static/js/main.22b3ebf0.chunk.js"
+  ]
+}
